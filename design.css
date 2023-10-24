@@ -1,0 +1,234 @@
+@font-face {
+    font-family: delius ;
+    src: url(Delius_Unicase/DeliusUnicase-Bold.ttf);
+}
+@font-face {
+    font-family: inter;
+    src: url(Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+@font-face {
+    font-family:  roboto;
+    src: url(Roboto/Roboto-Medium.ttf)
+}
+@font-face {
+    font-family:sans;
+    src: url(DM_Sans/DMSans-VariableFont_opsz\,wght.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body .static{
+    display:flex;
+    justify-content: right;
+    position: relative;
+    top: 600px;
+    right: 80px;
+
+}
+.static img{
+    position: fixed;
+    z-index: 2;
+}
+nav{
+    display: flex;
+    
+    width: 100%;
+    background:#6F6AF7;
+    position: fixed;
+    background: #6F6AF7;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px 30px;
+}
+.ee .icons {
+    position: sticky;
+    margin-top: 300px;
+    float: right;
+    z-index: -1;
+    top: 110px;
+}
+.ee .icons img{
+    display: flex;
+    margin: 3px 10px 0px 0px ;
+    border: 2.5px solid #000000;
+    border-radius: 10px;
+    width: 70px;
+    padding:7px; 
+   
+}
+
+nav .logo{
+    font-family: delius;
+    font-size: 60px;
+    color: white;
+}
+nav .list{
+    list-style: none;
+    display: flex;
+    margin: auto 0;
+}
+nav .list li{
+    margin-left: 40px;
+}
+nav .list li a{
+    font-family: sans;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+nav .list li img{
+    width: 10px;
+    height: 5px;
+    margin-bottom:5px ;
+}
+nav ul li:hover a{
+    background: white;
+    color: #0a5071;
+    border-radius: 5px;
+}
+nav .search_box {
+    display: flex;
+    margin: auto 0;
+    height: 45px;
+    line-height: 35px;
+    
+}
+nav .search_box input{ 
+    border: none;
+    outline: none; 
+    height: 100%;  
+    padding: 0 20px;
+    font-size: 20px;
+    width: 250px;
+    border-radius: 20px 0px 0px 20px;
+}
+nav .search_box .search{
+    height: 100%;
+    padding: 8px;
+    background:white;
+    border-radius: 0px 20px 20px 0px;
+
+}
+nav .im{
+    padding: 11px;
+}
+.container{
+    display: flex;
+    margin: 220px 120px 150px 120px;
+}
+.container img{
+    margin: 0px 20px 0px 0px ;
+    border-radius: 20px;
+    box-shadow: .9px .9px 10px  rgb(57, 57, 57);
+    height: 500px;
+    width: 400px;
+}
+.container .txt textarea{
+    width: 874px;
+    height: 500px;
+    border: none;
+    border-radius: 6px;
+    background: #E5D8FF;
+    box-shadow: .1px .1px 10px inset rgba(135, 135, 135, 0.677);
+    text-align: start;
+    padding: 30px;
+    font-size: 29px;
+    font-family: sans;
+    color: #6F7373; ;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+.container2 div{
+    margin: 0px 30px 0px 30px;
+    font-family: sans;
+    padding: 10px 40px 10px 20px;
+    font-size: 29px;
+    color: white;
+    border-radius: 11px;
+    width: 280px;
+    height: 110px;
+    line-height: 45px;
+    box-shadow: .9px .9px 10px  rgb(57, 57, 57);
+    
+}
+.container2 div p{
+    font-size: 28px;
+}
+.container2 .a{
+    background:#929DFF;
+}
+.container2 .a1{
+    background: #734CF2;  
+}
+.container2 .a2{
+    background: #D288FF;
+}
+.container2 .a3{
+    background:#000000;
+}
+.container3{
+    background: #483EFF;
+    margin: 110px;
+    display: flex;
+    justify-content: center;
+    font-size: 28px;
+    padding-bottom: 20px;
+    height: 510px;
+    border-radius: 10px;
+}
+.container3 .side .a6{
+    background: #BCE0F6;
+    text-align: center;
+    box-shadow: .9px .9px 10px  rgb(42, 42, 42);;
+}
+.container3 .side li{
+    font-family: sans;
+    margin-bottom: 50px ;
+    border-radius: 10px;
+    padding: 30px 50px 30px 50px;
+
+}
+ .side .a7 {
+    border: 2.5px solid #ffffff;
+    color: white;
+    
+}
+.side .a8 {
+    border: 2.5px solid #ffffff;
+    color: white;
+    text-align: center;
+}
+.ee .container3 .right {
+    background: white;
+    margin-top: 70px;
+    padding:40px;
+    width:920px;
+    height: 470px;
+    border-radius: 10px;
+    font-family: roboto;
+    color: #04285A;;
+    position:relative;
+    bottom: 50px;
+
+}
+.container3 ul{
+    padding-bottom:60px;
+}
+.container3 .right h4{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.container3 .right li{
+    margin: 20px;
+}
+.side{
+    padding: 20px 30px 40px 30px;
+    margin: 30px 20px 20px 10px;
+}
